@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Comfortaa;
+  src: url(./Comfortaa.ttf);
+}
+
+/* CSS Vars */
+:root {
+  --c0: #512BC7;
+  --c1: #2900C0;
+  --c2: #40F99B;
+  --c3: #F5FBEF;
+  --c4: #E85D75;
+
+  --shadow-color: #0003;
+
+  --bg-gradient: linear-gradient(165deg, var(--c0), var(--c1));
+  --tri-gradient: linear-gradient(-65deg, var(--c2), var(--c3), var(--c4));
+  --transparent-gradient: linear-gradient(175deg, #eee8, #aaa2);
+}
+
+/* HTML & Body */
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #2900C0;
+  background: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--c3);
+  overflow-x: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Comfortaa, sans-serif;
+  line-height: 1.3;
+}
+
+body {
+  position: absolute;
+  inset: 0;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* Headers */
+h1 {
+  font-size: 54px;
+}
+h2 {
+  font-size: 40px;
+  background-color: #512BC7;
+  box-shadow: 5px 5px 0 var(--shadow-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+}
+h3 {
+  background: var(--transparent-gradient);
+  color: var(--c3);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #fff5;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+/* Anchor Tag */
+a,
+a:visited {
+  color: inherit;
+  text-decoration-color: #fff8;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-color: var(--c3);
+}
+
+/* Text Gradient */
+.text-gradient {
+  width: fit-content;
+  background: var(--tri-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Adds uniform margins and centers on parent */
+.margins {
+  margin: 0 auto;
+  max-width: 720px;
+}
