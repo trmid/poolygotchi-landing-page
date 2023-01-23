@@ -2,7 +2,7 @@
 <!-- Banner -->
 <div id="container">
   <a href="https://test.poolygotchi.com" target="_blank" rel="noreferrer">
-    <img id="banner" src="img/testnet-banner.svg" alt="poolygotchi testnet live! play and save at test.poolygotchi.com">
+    <img id="banner" src="img/testnet-banner.png" alt="poolygotchi testnet live! play and save at test.poolygotchi.com">
   </a>
 </div>
 

@@ -53,10 +53,18 @@
 	</p>
 
 	<!-- FAQ -->
+	<ScrollTarget id="faq" />
 	<h2>
 		<span>faq</span>
 		<i class="icofont-support-faq"/>
 	</h2>
+
+	<FAQ>
+		<span slot="question">How do I pronounce this?</span>
+		<p>
+			"pooly • got • chi"
+		</p>
+	</FAQ>
 
 	<FAQ>
 		<span slot="question">Are Poolygotchis NFTs?</span>

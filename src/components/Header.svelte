@@ -9,6 +9,7 @@
       <img id="icon" src="favicon.png" alt="home">
     </a>
     <a href="/?about" use:link use:scrollTarget>about</a>
+    <a href="/?faq" use:link use:scrollTarget>faq</a>
     <a href="https://test.poolygotchi.com">testnet</a>
   </nav>
 </header>
@@ -36,7 +37,7 @@
     padding: 1rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
 
   #icon {
