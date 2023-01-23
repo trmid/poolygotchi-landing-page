@@ -1,5 +1,9 @@
 # Poolygotchi Landing Page
 
+![version](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=version&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftrmid%2Fpoolygotchi-landing-page%2Fmaster%2Fpackage.json)
+![svelte](https://img.shields.io/static/v1?label&logo=svelte&logoColor=white&message=Svelte&color=FF3E00)
+![typescript](https://img.shields.io/static/v1?label&logo=typescript&logoColor=white&message=TypeScript&color=3178C6)
+
 The landing page for poolygotchi.com.
 
 ## Installation
