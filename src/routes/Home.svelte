@@ -49,7 +49,7 @@
 	<br>
 
 	<p>
-		Hatch a poolygotchi of your own by defining a personal savings goal and making your first deposit onto PoolTogether! Check in on your poolygotchi to check for daily prizes, and keep depositing regularly to keep your pooly healthy!
+		Hatch a poolygotchi of your own by defining a personal savings goal and making your first deposit onto PoolTogether! Check in on your poolygotchi to check for daily prizes and keep depositing regularly to keep your pooly healthy!
 	</p>
 
 	<!-- FAQ -->
