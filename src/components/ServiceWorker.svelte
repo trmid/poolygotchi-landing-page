@@ -62,7 +62,7 @@
 </script>
 
 <!-- Optional install splash overlay -->
-{#if installing && (Date.now() - lastLoad > 1000 * 60 * 60)}
+{#if installing && ((Date.now() - lastLoad > 1000 * 60 * 60) || justUpdated)}
   <div id="container" out:fade={{ duration: 1000 }}>
     {#if pageLoaded}
       <!-- Icon -->
@@ -129,8 +129,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: inherit;
-    color: inherit;
+    background-color: var(--c0);
+    background: var(--bg-gradient);
     z-index: 200;
   }
 
