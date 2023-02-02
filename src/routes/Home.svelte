@@ -2,6 +2,7 @@
   import FAQ from "../components/FAQ.svelte";
 	import Logo from "../components/Logo.svelte";
   import ScrollTarget from "../components/ScrollTarget.svelte";
+    import SectionHeader from "../components/SectionHeader.svelte";
 	import TestnetAnnouncement from "../components/TestnetAnnouncement.svelte";
 </script>
 
@@ -12,20 +13,14 @@
 	<Logo/>
 
 	<!-- News -->
-	<h2 class="margins">
-		<span>news</span>
-		<i class="icofont-newspaper"/>
-	</h2>
+	<SectionHeader iconClass="icofont-newspaper">news</SectionHeader>
 
 	<!-- Testnet Announcement -->
 	<TestnetAnnouncement/>
 
 	<!-- About -->
 	<ScrollTarget id="about" />
-	<h2>
-		<span>about</span>
-		<i class="icofont-question-circle"/>
-	</h2>
+	<SectionHeader iconClass="icofont-question-circle">about</SectionHeader>
 
 	<p>
 		Poolygotchi is a community project that provides a fun, alternative way of interacting with the <a href="https://pooltogether.com" target="_blank" rel="noreferrer">PoolTogether</a> savings protocol.
@@ -54,10 +49,7 @@
 
 	<!-- FAQ -->
 	<ScrollTarget id="faq" />
-	<h2>
-		<span>faq</span>
-		<i class="icofont-support-faq"/>
-	</h2>
+	<SectionHeader iconClass="icofont-support-faq">faq</SectionHeader>
 
 	<FAQ>
 		<span slot="question">How do I pronounce this?</span>
@@ -115,13 +107,6 @@
 <style>
 	main {
 		padding: 1rem;
-	}
-
-	h2 {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 1rem;
 	}
 
 	p, aside {
